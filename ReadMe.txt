@@ -3,7 +3,7 @@
 This folder contains 
 	- * directories
 		1. Source --> which contains source code for task
-		2. Bin --> which contains last built binaries for Release|Any CPU
+		2. bin --> which contains last built binaries for Release|Any CPU
 	- * files
 		1. Re-Build.bat --> batch file to execute re-build solution without opening visual studio
 		2. Run.bat --> batch file runs executable Runner.executable
@@ -39,4 +39,30 @@ FindMissingNumber Problem:
 	Analysis:
 		- Time Complextiy: O(n)
 		- Space Complextiy: O(1)
+
+		=======================================================
+        =======================================================
+
+		Remove Duplicates Problem:
+	Assumptions:
+		1. this program accepts strings which is seperated by comma  
+		2. empty string or null string or just one character does not have any duplications.
+
+	Analysis:
+		- Time Complextiy: O(n)
+		- Space Complextiy: O(1)
+		
+	Exceptions:
+		- GivenStringIsEmpty: 
+			* this exception is being thrown when give input string is null or empty or single space
+			
+Runner Executable wrapper:
+	- Program.cs is the one who is handling all exceptions through: 
+		Application.ThreadException += Application_ThreadException;
+        AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
+	  and handlers are setting Error Text to main form, to reflect to the UI, this is for simplicity and for real life scenario, I would implement logging
+	
+	- Main form is showing only custom exceptions, but for system exceptions Form will show "System Exception, There is no Logging System. Please contact moghimi.salar@gmail.com to check" :))
+	
+
 	
