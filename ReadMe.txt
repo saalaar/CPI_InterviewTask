@@ -1,6 +1,6 @@
 --CPI Interview Task--
 
-This folder contains 
+This Repo contains 
 	- * directories
 		1. Source --> which contains source code for task
 		2. bin --> which contains last built binaries for Release|Any CPU
