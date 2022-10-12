@@ -9,10 +9,10 @@ This folder contains
 		2. Run.bat --> batch file runs executable Runner.executable
 		
 How to Run
-	- Please call "Run.bat" from any cmd window and if binaries are existed it will re-build solution after a confirmation
+	- Yoy can run this solution in visual studio or you can call "Run.bat" from any cmd window and if binaries are existed it will re-build solution after a confirmation
 	
 How to Build
-	- Please call "Re-Build.bat" from any cmd window 
+	- you can  call "Re-Build.bat" from any cmd window 
 
 This solution contains 6 Projects
 1. Runner --> executable wrapper contains minimal UI Form main to print results
